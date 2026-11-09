@@ -25,6 +25,8 @@ official NSE filing it came from.
   margin of safety ≥ 30%).
 
 ### Valuation
+![Company page: Coal India](docs/screenshots/company-dark.png)
+
 - **Bear / base / bull owner-earnings DCF** for every non-financial company, shown as a value *range*, never a single
   "target price".
 - **Margin of safety** against today's NSE closing price.
@@ -44,20 +46,10 @@ official NSE filing it came from.
 - **Reconciliation:** stored figures are re-extracted by an independent parser; mismatches are quarantined.
 - **Data quality page** listing every failed, missing or contradictory filing.
 
-![Data quality](docs/screenshots/data-quality-dark.png)
-
 ### Built for daily use
 - Polite, resumable refresh: paced requests, back-off on blocks, checkpoints, estimated time left.
 - Scan history, CSV export, keyboard shortcuts, light and dark themes, WCAG 2.2 AA accessibility.
 - Runs entirely on your own computer; no account, no credentials, no third-party runtime dependencies.
-
-
-## Honest limitations
-- NSE's machine-readable annual results with a balance sheet start around FY2023, so the default preset judges
-  **4 years**, not the 10+ years a Buffett-style screen would normally use. The app labels this clearly.
-- Values are **estimates** from a model, not facts.
-- Accuracy so far is checked against the same NSE files by a second parser. A comparison with a second source
-  (BSE or annual reports) has not been run yet. Current self-assessed audit score: 6.5 / 10.
 
 ## Source code
 The source code is private. For access, collaboration or questions, contact **buildsbeyondai@gmail.com**.
