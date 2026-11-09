@@ -10,7 +10,7 @@ official NSE filing it came from.
 > **Not investment advice.** Buffett Lens AI is a rules-based screen. It is not a prediction of what Warren Buffett
 > would actually buy, and it is not SEBI-registered advice. Do your own research.
 
-![Screener — light theme](docs/screenshots/screener-light.png)
+![Screener](docs/screenshots/screener-dark.png)
 
 ## Features
 
@@ -44,14 +44,13 @@ official NSE filing it came from.
 - **Reconciliation:** stored figures are re-extracted by an independent parser; mismatches are quarantined.
 - **Data quality page** listing every failed, missing or contradictory filing.
 
-![Data quality](docs/screenshots/data-quality.png)
+![Data quality](docs/screenshots/data-quality-dark.png)
 
 ### Built for daily use
 - Polite, resumable refresh: paced requests, back-off on blocks, checkpoints, estimated time left.
 - Scan history, CSV export, keyboard shortcuts, light and dark themes, WCAG 2.2 AA accessibility.
 - Runs entirely on your own computer; no account, no credentials, no third-party runtime dependencies.
 
-![Screener — dark theme](docs/screenshots/screener-dark.png)
 
 ## Honest limitations
 - NSE's machine-readable annual results with a balance sheet start around FY2023, so the default preset judges
