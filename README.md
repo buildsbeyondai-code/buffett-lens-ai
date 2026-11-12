@@ -51,8 +51,17 @@ official NSE filing it came from.
 - Scan history, CSV export, keyboard shortcuts, light and dark themes, WCAG 2.2 AA accessibility.
 - Runs entirely on your own computer; no account, no credentials, no third-party runtime dependencies.
 
-## Source code
-The source code is private. For access, collaboration or questions, contact **buildsbeyondai@gmail.com**.
+## Download
+Free and open source (MIT). Download `nse-value-screener-2.2.2.zip` from
+[Releases](https://github.com/buildsbeyondai-code/buffett-lens-ai/releases/latest), then:
+
+```bash
+unzip nse-value-screener-2.2.2.zip && cd nse-value-screener
+python3 -m app init && python3 -m app serve --port 5071   # http://127.0.0.1:5071/
+```
+
+Requires Python 3.11+ (standard library only). Your AI agent can also install it with the Agensi skill
+"Buffett-Style NSE Stock Screener With DCF Value Ranges". Questions: **buildsbeyondai@gmail.com**.
 
 Engineering: Python standard library only, about 290 automated tests (unit, property-based, browser end-to-end with
 accessibility checks), CI on Python 3.11–3.14.
