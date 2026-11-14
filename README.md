@@ -1,13 +1,13 @@
-# Buffett Lens AI
+# Value Like Buffett – NSE Stock Screener
 
 **Screen India's Nifty 500 the way a long-term value investor would — using only official NSE data.**
 
-Buffett Lens AI is a local web app that checks every Nifty 500 company against documented Buffett-style principles
+Value Like Buffett is a local web app that checks every Nifty 500 company against documented Buffett-style principles
 (durable profitability, high return on equity, low debt, real free cash flow, no shareholder dilution), estimates what
 each business is worth, and shortlists the companies trading at a real margin of safety. Every number links back to the
 official NSE filing it came from.
 
-> **Not investment advice.** Buffett Lens AI is a rules-based screen. It is not a prediction of what Warren Buffett
+> **Not investment advice.** Value Like Buffett is a rules-based screen. It is not a prediction of what Warren Buffett
 > would actually buy, and it is not SEBI-registered advice. Do your own research.
 
 ![Screener](docs/screenshots/screener-dark.png)
